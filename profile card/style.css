@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4fc3f7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+width: 320px;
+height: 180px;
+
+}
+.profile-card {
+  width: 320px;
+  height: 350px;
+  background-color: #ffffff;
+  margin: auto;
+  margin-top: 92px;
+  box-shadow: 2px 2px 12px;
+  border-radius: 12px;
+}
+.pattern {
+    width: 320px;
+    border-radius:12px 12px 0 0 ;
+    position: absolute;
+}
+.user-profile {
+    position: absolute;
+    margin-left: 110px;
+    border-radius: 50%;
+    margin-top: 80px;
+    box-shadow: 2px 2px 6px;
+}
+.name{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.city{
+    color: darkgray;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.post-followers-likes{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top: 45px;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+.post-followers-likes h4 {
+  color: dimgray;
+  margin-top: 6px;
+}
